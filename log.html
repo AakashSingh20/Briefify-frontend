@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="log.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+<title>Form</title>
+
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Sign up</button>
+					<label for="chk" aria-hidden="true" style="font-size: 18px; margin-top:50px">Already have an account?</label>
+				</form>
+			</div>
+
+			<div class="login" id="loginbox">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>Login</button>
+					<label for="chk" aria-hidden="true" style="font-size: 18px; margin-top:50px">Dont have an account yet?</label>
+					
+				</form>
+			</div>
+	</div>
+	<!-- <img src="img/wave.svg"> -->
+	<script src="main.js"></script>
+</body>
+</html>
